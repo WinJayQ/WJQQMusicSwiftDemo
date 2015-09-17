@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C17FEFB1BA90ACB00E32E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FEFA1BA90ACB00E32E37 /* AppDelegate.swift */; };
+		9C17FEFD1BA90ACB00E32E37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FEFC1BA90ACB00E32E37 /* ViewController.swift */; };
+		9C17FF001BA90ACB00E32E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FEFE1BA90ACB00E32E37 /* Main.storyboard */; };
+		9C17FF021BA90ACB00E32E37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF011BA90ACB00E32E37 /* Images.xcassets */; };
+		9C17FF051BA90ACB00E32E37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF031BA90ACB00E32E37 /* LaunchScreen.xib */; };
+		9C17FF111BA90ACB00E32E37 /* WJQQMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FF101BA90ACB00E32E37 /* WJQQMusicTests.swift */; };
+		9C17FF561BA90B2B00E32E37 /* 239780136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF1B1BA90B2B00E32E37 /* 239780136.jpg */; };
+		9C17FF571BA90B2B00E32E37 /* actionbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF1C1BA90B2B00E32E37 /* actionbutton@2x.png */; };
+		9C17FF581BA90B2B00E32E37 /* actionIconLike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF1D1BA90B2B00E32E37 /* actionIconLike@2x.png */; };
+		9C17FF591BA90B2B00E32E37 /* actionIconLikeSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF1E1BA90B2B00E32E37 /* actionIconLikeSelected@2x.png */; };
+		9C17FF5A1BA90B2B00E32E37 /* bannerTips_topokSQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF1F1BA90B2B00E32E37 /* bannerTips_topokSQ@2x.png */; };
+		9C17FF5B1BA90B2B00E32E37 /* channel_song_list_play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF201BA90B2B00E32E37 /* channel_song_list_play_btn@2x.png */; };
+		9C17FF5C1BA90B2B00E32E37 /* channel_song_list_play_btn_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF211BA90B2B00E32E37 /* channel_song_list_play_btn_h@2x.png */; };
+		9C17FF5D1BA90B2B00E32E37 /* channel_songFolderList_playAll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF221BA90B2B00E32E37 /* channel_songFolderList_playAll@2x.png */; };
+		9C17FF5E1BA90B2B00E32E37 /* channel_songFolderList_playAll_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF231BA90B2B00E32E37 /* channel_songFolderList_playAll_h@2x.png */; };
+		9C17FF5F1BA90B2B00E32E37 /* icon_operate_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF241BA90B2B00E32E37 /* icon_operate_play@2x.png */; };
+		9C17FF601BA90B2B00E32E37 /* icon_operate_play_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF251BA90B2B00E32E37 /* icon_operate_play_pressed@2x.png */; };
+		9C17FF611BA90B2B00E32E37 /* mymuisc_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF261BA90B2B00E32E37 /* mymuisc_more@2x.png */; };
+		9C17FF621BA90B2B00E32E37 /* nowplay_recommend_selected_cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF271BA90B2B00E32E37 /* nowplay_recommend_selected_cell@2x.png */; };
+		9C17FF631BA90B2B00E32E37 /* nowplaying_playlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF281BA90B2B00E32E37 /* nowplaying_playlist@2x.png */; };
+		9C17FF641BA90B2B00E32E37 /* nowplaying_random@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF291BA90B2B00E32E37 /* nowplaying_random@2x.png */; };
+		9C17FF651BA90B2B00E32E37 /* nowplaying_random_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF2A1BA90B2B00E32E37 /* nowplaying_random_h@2x.png */; };
+		9C17FF661BA90B2B00E32E37 /* nowplaying_section_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF2B1BA90B2B00E32E37 /* nowplaying_section_bg@2x.png */; };
+		9C17FF671BA90B2B00E32E37 /* player_btn_download_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF2C1BA90B2B00E32E37 /* player_btn_download_disable@2x.png */; };
+		9C17FF681BA90B2B00E32E37 /* player_btn_download_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF2D1BA90B2B00E32E37 /* player_btn_download_highlight@2x.png */; };
+		9C17FF691BA90B2B00E32E37 /* player_btn_download_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF2E1BA90B2B00E32E37 /* player_btn_download_normal@2x.png */; };
+		9C17FF6A1BA90B2B00E32E37 /* player_btn_favorite_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF2F1BA90B2B00E32E37 /* player_btn_favorite_disable@2x.png */; };
+		9C17FF6B1BA90B2B00E32E37 /* player_btn_favorite_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF301BA90B2B00E32E37 /* player_btn_favorite_highlight@2x.png */; };
+		9C17FF6C1BA90B2B00E32E37 /* player_btn_favorite_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF311BA90B2B00E32E37 /* player_btn_favorite_normal@2x.png */; };
+		9C17FF6D1BA90B2B00E32E37 /* player_btn_favorited_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF321BA90B2B00E32E37 /* player_btn_favorited_highlight@2x.png */; };
+		9C17FF6E1BA90B2B00E32E37 /* player_btn_favorited_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF331BA90B2B00E32E37 /* player_btn_favorited_normal@2x.png */; };
+		9C17FF6F1BA90B2B00E32E37 /* player_btn_hq_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF341BA90B2B00E32E37 /* player_btn_hq_disable@2x.png */; };
+		9C17FF701BA90B2B00E32E37 /* player_btn_more_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF351BA90B2B00E32E37 /* player_btn_more_highlight@2x.png */; };
+		9C17FF711BA90B2B00E32E37 /* player_btn_more_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF361BA90B2B00E32E37 /* player_btn_more_normal@2x.png */; };
+		9C17FF721BA90B2B00E32E37 /* player_btn_next_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF371BA90B2B00E32E37 /* player_btn_next_highlight@2x.png */; };
+		9C17FF731BA90B2B00E32E37 /* player_btn_next_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF381BA90B2B00E32E37 /* player_btn_next_normal@2x.png */; };
+		9C17FF741BA90B2B00E32E37 /* player_btn_pause_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF391BA90B2B00E32E37 /* player_btn_pause_highlight@2x.png */; };
+		9C17FF751BA90B2B00E32E37 /* player_btn_pause_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF3A1BA90B2B00E32E37 /* player_btn_pause_normal@2x.png */; };
+		9C17FF761BA90B2B00E32E37 /* player_btn_play_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF3B1BA90B2B00E32E37 /* player_btn_play_highlight@2x.png */; };
+		9C17FF771BA90B2B00E32E37 /* player_btn_play_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF3C1BA90B2B00E32E37 /* player_btn_play_normal@2x.png */; };
+		9C17FF781BA90B2B00E32E37 /* player_btn_playlist_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF3D1BA90B2B00E32E37 /* player_btn_playlist_highlight@2x.png */; };
+		9C17FF791BA90B2B00E32E37 /* player_btn_playlist_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF3E1BA90B2B00E32E37 /* player_btn_playlist_normal@2x.png */; };
+		9C17FF7A1BA90B2B00E32E37 /* player_btn_pre_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF3F1BA90B2B00E32E37 /* player_btn_pre_highlight@2x.png */; };
+		9C17FF7B1BA90B2B00E32E37 /* player_btn_pre_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF401BA90B2B00E32E37 /* player_btn_pre_normal@2x.png */; };
+		9C17FF7C1BA90B2B00E32E37 /* player_btn_radio_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF411BA90B2B00E32E37 /* player_btn_radio_normal@2x.png */; };
+		9C17FF7D1BA90B2B00E32E37 /* player_btn_radiolist_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF421BA90B2B00E32E37 /* player_btn_radiolist_highlight@2x.png */; };
+		9C17FF7E1BA90B2B00E32E37 /* player_btn_radiolist_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF431BA90B2B00E32E37 /* player_btn_radiolist_normal@2x.png */; };
+		9C17FF7F1BA90B2B00E32E37 /* player_btn_random_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF441BA90B2B00E32E37 /* player_btn_random_disable@2x.png */; };
+		9C17FF801BA90B2B00E32E37 /* player_btn_random_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF451BA90B2B00E32E37 /* player_btn_random_highlight@2x.png */; };
+		9C17FF811BA90B2B00E32E37 /* player_btn_random_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF461BA90B2B00E32E37 /* player_btn_random_normal@2x.png */; };
+		9C17FF821BA90B2B00E32E37 /* player_btn_repeat_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF471BA90B2B00E32E37 /* player_btn_repeat_disable@2x.png */; };
+		9C17FF831BA90B2B00E32E37 /* player_btn_repeat_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF481BA90B2B00E32E37 /* player_btn_repeat_highlight@2x.png */; };
+		9C17FF841BA90B2B00E32E37 /* player_btn_repeat_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF491BA90B2B00E32E37 /* player_btn_repeat_normal@2x.png */; };
+		9C17FF851BA90B2B00E32E37 /* player_btn_repeatone_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF4A1BA90B2B00E32E37 /* player_btn_repeatone_disable@2x.png */; };
+		9C17FF861BA90B2B00E32E37 /* player_btn_repeatone_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF4B1BA90B2B00E32E37 /* player_btn_repeatone_highlight@2x.png */; };
+		9C17FF871BA90B2B00E32E37 /* player_btn_repeatone_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF4C1BA90B2B00E32E37 /* player_btn_repeatone_normal@2x.png */; };
+		9C17FF881BA90B2B00E32E37 /* player_btn_share_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF4D1BA90B2B00E32E37 /* player_btn_share_disable@2x.png */; };
+		9C17FF891BA90B2B00E32E37 /* player_btn_share_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF4E1BA90B2B00E32E37 /* player_btn_share_highlight@2x.png */; };
+		9C17FF8A1BA90B2B00E32E37 /* player_btn_share_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF4F1BA90B2B00E32E37 /* player_btn_share_normal@2x.png */; };
+		9C17FF8B1BA90B2B00E32E37 /* player_btn_sq_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF501BA90B2B00E32E37 /* player_btn_sq_disable@2x.png */; };
+		9C17FF8C1BA90B2B00E32E37 /* player_btn_trash_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF511BA90B2B00E32E37 /* player_btn_trash_highlight@2x.png */; };
+		9C17FF8D1BA90B2B00E32E37 /* player_btn_trash_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF521BA90B2B00E32E37 /* player_btn_trash_normal@2x.png */; };
+		9C17FF8E1BA90B2B00E32E37 /* player_slider_playback_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF531BA90B2B00E32E37 /* player_slider_playback_left@2x.png */; };
+		9C17FF8F1BA90B2B00E32E37 /* player_slider_playback_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF541BA90B2B00E32E37 /* player_slider_playback_right@2x.png */; };
+		9C17FF901BA90B2B00E32E37 /* player_slider_playback_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FF551BA90B2B00E32E37 /* player_slider_playback_thumb@2x.png */; };
+		9C17FF941BA91A6B00E32E37 /* PlayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FF931BA91A6B00E32E37 /* PlayListView.swift */; };
+		9C17FFEF1BA944D200E32E37 /* HttpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FFEE1BA944D200E32E37 /* HttpProtocol.swift */; };
+		9C17FFF11BA9480600E32E37 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FFF01BA9480600E32E37 /* Song.swift */; };
+		9C17FFF31BA9543E00E32E37 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17FFF21BA9543E00E32E37 /* Public.swift */; };
+		9C17FFF51BA9675300E32E37 /* PlayListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C17FFF41BA9675300E32E37 /* PlayListView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C17FF0B1BA90ACB00E32E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C17FEED1BA90ACB00E32E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C17FEF41BA90ACB00E32E37;
+			remoteInfo = WJQQMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C17FFC21BA9415A00E32E37 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C17FEF51BA90ACB00E32E37 /* WJQQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJQQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C17FEF91BA90ACB00E32E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C17FEFA1BA90ACB00E32E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C17FEFC1BA90ACB00E32E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C17FEFF1BA90ACB00E32E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C17FF011BA90ACB00E32E37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C17FF041BA90ACB00E32E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C17FF0A1BA90ACB00E32E37 /* WJQQMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJQQMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C17FF0F1BA90ACB00E32E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C17FF101BA90ACB00E32E37 /* WJQQMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJQQMusicTests.swift; sourceTree = "<group>"; };
+		9C17FF1B1BA90B2B00E32E37 /* 239780136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 239780136.jpg; sourceTree = "<group>"; };
+		9C17FF1C1BA90B2B00E32E37 /* actionbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionbutton@2x.png"; sourceTree = "<group>"; };
+		9C17FF1D1BA90B2B00E32E37 /* actionIconLike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionIconLike@2x.png"; sourceTree = "<group>"; };
+		9C17FF1E1BA90B2B00E32E37 /* actionIconLikeSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionIconLikeSelected@2x.png"; sourceTree = "<group>"; };
+		9C17FF1F1BA90B2B00E32E37 /* bannerTips_topokSQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTips_topokSQ@2x.png"; sourceTree = "<group>"; };
+		9C17FF201BA90B2B00E32E37 /* channel_song_list_play_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_song_list_play_btn@2x.png"; sourceTree = "<group>"; };
+		9C17FF211BA90B2B00E32E37 /* channel_song_list_play_btn_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_song_list_play_btn_h@2x.png"; sourceTree = "<group>"; };
+		9C17FF221BA90B2B00E32E37 /* channel_songFolderList_playAll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_songFolderList_playAll@2x.png"; sourceTree = "<group>"; };
+		9C17FF231BA90B2B00E32E37 /* channel_songFolderList_playAll_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_songFolderList_playAll_h@2x.png"; sourceTree = "<group>"; };
+		9C17FF241BA90B2B00E32E37 /* icon_operate_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_operate_play@2x.png"; sourceTree = "<group>"; };
+		9C17FF251BA90B2B00E32E37 /* icon_operate_play_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_operate_play_pressed@2x.png"; sourceTree = "<group>"; };
+		9C17FF261BA90B2B00E32E37 /* mymuisc_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mymuisc_more@2x.png"; sourceTree = "<group>"; };
+		9C17FF271BA90B2B00E32E37 /* nowplay_recommend_selected_cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nowplay_recommend_selected_cell@2x.png"; sourceTree = "<group>"; };
+		9C17FF281BA90B2B00E32E37 /* nowplaying_playlist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nowplaying_playlist@2x.png"; sourceTree = "<group>"; };
+		9C17FF291BA90B2B00E32E37 /* nowplaying_random@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nowplaying_random@2x.png"; sourceTree = "<group>"; };
+		9C17FF2A1BA90B2B00E32E37 /* nowplaying_random_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nowplaying_random_h@2x.png"; sourceTree = "<group>"; };
+		9C17FF2B1BA90B2B00E32E37 /* nowplaying_section_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nowplaying_section_bg@2x.png"; sourceTree = "<group>"; };
+		9C17FF2C1BA90B2B00E32E37 /* player_btn_download_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_download_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF2D1BA90B2B00E32E37 /* player_btn_download_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_download_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF2E1BA90B2B00E32E37 /* player_btn_download_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_download_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF2F1BA90B2B00E32E37 /* player_btn_favorite_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_favorite_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF301BA90B2B00E32E37 /* player_btn_favorite_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_favorite_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF311BA90B2B00E32E37 /* player_btn_favorite_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_favorite_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF321BA90B2B00E32E37 /* player_btn_favorited_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_favorited_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF331BA90B2B00E32E37 /* player_btn_favorited_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_favorited_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF341BA90B2B00E32E37 /* player_btn_hq_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_hq_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF351BA90B2B00E32E37 /* player_btn_more_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_more_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF361BA90B2B00E32E37 /* player_btn_more_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_more_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF371BA90B2B00E32E37 /* player_btn_next_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_next_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF381BA90B2B00E32E37 /* player_btn_next_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_next_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF391BA90B2B00E32E37 /* player_btn_pause_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pause_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF3A1BA90B2B00E32E37 /* player_btn_pause_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pause_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF3B1BA90B2B00E32E37 /* player_btn_play_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_play_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF3C1BA90B2B00E32E37 /* player_btn_play_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_play_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF3D1BA90B2B00E32E37 /* player_btn_playlist_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_playlist_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF3E1BA90B2B00E32E37 /* player_btn_playlist_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_playlist_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF3F1BA90B2B00E32E37 /* player_btn_pre_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pre_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF401BA90B2B00E32E37 /* player_btn_pre_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pre_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF411BA90B2B00E32E37 /* player_btn_radio_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_radio_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF421BA90B2B00E32E37 /* player_btn_radiolist_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_radiolist_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF431BA90B2B00E32E37 /* player_btn_radiolist_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_radiolist_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF441BA90B2B00E32E37 /* player_btn_random_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_random_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF451BA90B2B00E32E37 /* player_btn_random_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_random_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF461BA90B2B00E32E37 /* player_btn_random_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_random_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF471BA90B2B00E32E37 /* player_btn_repeat_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeat_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF481BA90B2B00E32E37 /* player_btn_repeat_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeat_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF491BA90B2B00E32E37 /* player_btn_repeat_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeat_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF4A1BA90B2B00E32E37 /* player_btn_repeatone_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeatone_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF4B1BA90B2B00E32E37 /* player_btn_repeatone_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeatone_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF4C1BA90B2B00E32E37 /* player_btn_repeatone_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeatone_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF4D1BA90B2B00E32E37 /* player_btn_share_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_share_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF4E1BA90B2B00E32E37 /* player_btn_share_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_share_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF4F1BA90B2B00E32E37 /* player_btn_share_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_share_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF501BA90B2B00E32E37 /* player_btn_sq_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_sq_disable@2x.png"; sourceTree = "<group>"; };
+		9C17FF511BA90B2B00E32E37 /* player_btn_trash_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_trash_highlight@2x.png"; sourceTree = "<group>"; };
+		9C17FF521BA90B2B00E32E37 /* player_btn_trash_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_trash_normal@2x.png"; sourceTree = "<group>"; };
+		9C17FF531BA90B2B00E32E37 /* player_slider_playback_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_slider_playback_left@2x.png"; sourceTree = "<group>"; };
+		9C17FF541BA90B2B00E32E37 /* player_slider_playback_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_slider_playback_right@2x.png"; sourceTree = "<group>"; };
+		9C17FF551BA90B2B00E32E37 /* player_slider_playback_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_slider_playback_thumb@2x.png"; sourceTree = "<group>"; };
+		9C17FF931BA91A6B00E32E37 /* PlayListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayListView.swift; sourceTree = "<group>"; };
+		9C17FFEE1BA944D200E32E37 /* HttpProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpProtocol.swift; sourceTree = "<group>"; };
+		9C17FFF01BA9480600E32E37 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		9C17FFF21BA9543E00E32E37 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		9C17FFF41BA9675300E32E37 /* PlayListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayListView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C17FEF21BA90ACB00E32E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C17FF071BA90ACB00E32E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C17FEEC1BA90ACB00E32E37 = {
+			isa = PBXGroup;
+			children = (
+				9C17FEF71BA90ACB00E32E37 /* WJQQMusic */,
+				9C17FF0D1BA90ACB00E32E37 /* WJQQMusicTests */,
+				9C17FEF61BA90ACB00E32E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C17FEF61BA90ACB00E32E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FEF51BA90ACB00E32E37 /* WJQQMusic.app */,
+				9C17FF0A1BA90ACB00E32E37 /* WJQQMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C17FEF71BA90ACB00E32E37 /* WJQQMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FFED1BA944AE00E32E37 /* Class */,
+				9C17FF951BA91AA100E32E37 /* Model */,
+				9C17FF921BA91A4400E32E37 /* View */,
+				9C17FF911BA91A2900E32E37 /* ViewController */,
+				9C17FEFA1BA90ACB00E32E37 /* AppDelegate.swift */,
+				9C17FEFE1BA90ACB00E32E37 /* Main.storyboard */,
+				9C17FF011BA90ACB00E32E37 /* Images.xcassets */,
+				9C17FF031BA90ACB00E32E37 /* LaunchScreen.xib */,
+				9C17FEF81BA90ACB00E32E37 /* Supporting Files */,
+			);
+			path = WJQQMusic;
+			sourceTree = "<group>";
+		};
+		9C17FEF81BA90ACB00E32E37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FF1A1BA90B2B00E32E37 /* Resource */,
+				9C17FEF91BA90ACB00E32E37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C17FF0D1BA90ACB00E32E37 /* WJQQMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FF101BA90ACB00E32E37 /* WJQQMusicTests.swift */,
+				9C17FF0E1BA90ACB00E32E37 /* Supporting Files */,
+			);
+			path = WJQQMusicTests;
+			sourceTree = "<group>";
+		};
+		9C17FF0E1BA90ACB00E32E37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FF0F1BA90ACB00E32E37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C17FF1A1BA90B2B00E32E37 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FF1B1BA90B2B00E32E37 /* 239780136.jpg */,
+				9C17FF1C1BA90B2B00E32E37 /* actionbutton@2x.png */,
+				9C17FF1D1BA90B2B00E32E37 /* actionIconLike@2x.png */,
+				9C17FF1E1BA90B2B00E32E37 /* actionIconLikeSelected@2x.png */,
+				9C17FF1F1BA90B2B00E32E37 /* bannerTips_topokSQ@2x.png */,
+				9C17FF201BA90B2B00E32E37 /* channel_song_list_play_btn@2x.png */,
+				9C17FF211BA90B2B00E32E37 /* channel_song_list_play_btn_h@2x.png */,
+				9C17FF221BA90B2B00E32E37 /* channel_songFolderList_playAll@2x.png */,
+				9C17FF231BA90B2B00E32E37 /* channel_songFolderList_playAll_h@2x.png */,
+				9C17FF241BA90B2B00E32E37 /* icon_operate_play@2x.png */,
+				9C17FF251BA90B2B00E32E37 /* icon_operate_play_pressed@2x.png */,
+				9C17FF261BA90B2B00E32E37 /* mymuisc_more@2x.png */,
+				9C17FF271BA90B2B00E32E37 /* nowplay_recommend_selected_cell@2x.png */,
+				9C17FF281BA90B2B00E32E37 /* nowplaying_playlist@2x.png */,
+				9C17FF291BA90B2B00E32E37 /* nowplaying_random@2x.png */,
+				9C17FF2A1BA90B2B00E32E37 /* nowplaying_random_h@2x.png */,
+				9C17FF2B1BA90B2B00E32E37 /* nowplaying_section_bg@2x.png */,
+				9C17FF2C1BA90B2B00E32E37 /* player_btn_download_disable@2x.png */,
+				9C17FF2D1BA90B2B00E32E37 /* player_btn_download_highlight@2x.png */,
+				9C17FF2E1BA90B2B00E32E37 /* player_btn_download_normal@2x.png */,
+				9C17FF2F1BA90B2B00E32E37 /* player_btn_favorite_disable@2x.png */,
+				9C17FF301BA90B2B00E32E37 /* player_btn_favorite_highlight@2x.png */,
+				9C17FF311BA90B2B00E32E37 /* player_btn_favorite_normal@2x.png */,
+				9C17FF321BA90B2B00E32E37 /* player_btn_favorited_highlight@2x.png */,
+				9C17FF331BA90B2B00E32E37 /* player_btn_favorited_normal@2x.png */,
+				9C17FF341BA90B2B00E32E37 /* player_btn_hq_disable@2x.png */,
+				9C17FF351BA90B2B00E32E37 /* player_btn_more_highlight@2x.png */,
+				9C17FF361BA90B2B00E32E37 /* player_btn_more_normal@2x.png */,
+				9C17FF371BA90B2B00E32E37 /* player_btn_next_highlight@2x.png */,
+				9C17FF381BA90B2B00E32E37 /* player_btn_next_normal@2x.png */,
+				9C17FF391BA90B2B00E32E37 /* player_btn_pause_highlight@2x.png */,
+				9C17FF3A1BA90B2B00E32E37 /* player_btn_pause_normal@2x.png */,
+				9C17FF3B1BA90B2B00E32E37 /* player_btn_play_highlight@2x.png */,
+				9C17FF3C1BA90B2B00E32E37 /* player_btn_play_normal@2x.png */,
+				9C17FF3D1BA90B2B00E32E37 /* player_btn_playlist_highlight@2x.png */,
+				9C17FF3E1BA90B2B00E32E37 /* player_btn_playlist_normal@2x.png */,
+				9C17FF3F1BA90B2B00E32E37 /* player_btn_pre_highlight@2x.png */,
+				9C17FF401BA90B2B00E32E37 /* player_btn_pre_normal@2x.png */,
+				9C17FF411BA90B2B00E32E37 /* player_btn_radio_normal@2x.png */,
+				9C17FF421BA90B2B00E32E37 /* player_btn_radiolist_highlight@2x.png */,
+				9C17FF431BA90B2B00E32E37 /* player_btn_radiolist_normal@2x.png */,
+				9C17FF441BA90B2B00E32E37 /* player_btn_random_disable@2x.png */,
+				9C17FF451BA90B2B00E32E37 /* player_btn_random_highlight@2x.png */,
+				9C17FF461BA90B2B00E32E37 /* player_btn_random_normal@2x.png */,
+				9C17FF471BA90B2B00E32E37 /* player_btn_repeat_disable@2x.png */,
+				9C17FF481BA90B2B00E32E37 /* player_btn_repeat_highlight@2x.png */,
+				9C17FF491BA90B2B00E32E37 /* player_btn_repeat_normal@2x.png */,
+				9C17FF4A1BA90B2B00E32E37 /* player_btn_repeatone_disable@2x.png */,
+				9C17FF4B1BA90B2B00E32E37 /* player_btn_repeatone_highlight@2x.png */,
+				9C17FF4C1BA90B2B00E32E37 /* player_btn_repeatone_normal@2x.png */,
+				9C17FF4D1BA90B2B00E32E37 /* player_btn_share_disable@2x.png */,
+				9C17FF4E1BA90B2B00E32E37 /* player_btn_share_highlight@2x.png */,
+				9C17FF4F1BA90B2B00E32E37 /* player_btn_share_normal@2x.png */,
+				9C17FF501BA90B2B00E32E37 /* player_btn_sq_disable@2x.png */,
+				9C17FF511BA90B2B00E32E37 /* player_btn_trash_highlight@2x.png */,
+				9C17FF521BA90B2B00E32E37 /* player_btn_trash_normal@2x.png */,
+				9C17FF531BA90B2B00E32E37 /* player_slider_playback_left@2x.png */,
+				9C17FF541BA90B2B00E32E37 /* player_slider_playback_right@2x.png */,
+				9C17FF551BA90B2B00E32E37 /* player_slider_playback_thumb@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9C17FF911BA91A2900E32E37 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FEFC1BA90ACB00E32E37 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9C17FF921BA91A4400E32E37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FF931BA91A6B00E32E37 /* PlayListView.swift */,
+				9C17FFF41BA9675300E32E37 /* PlayListView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9C17FF951BA91AA100E32E37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FFF01BA9480600E32E37 /* Song.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9C17FFED1BA944AE00E32E37 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9C17FFEE1BA944D200E32E37 /* HttpProtocol.swift */,
+				9C17FFF21BA9543E00E32E37 /* Public.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C17FEF41BA90ACB00E32E37 /* WJQQMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C17FF141BA90ACB00E32E37 /* Build configuration list for PBXNativeTarget "WJQQMusic" */;
+			buildPhases = (
+				9C17FEF11BA90ACB00E32E37 /* Sources */,
+				9C17FEF21BA90ACB00E32E37 /* Frameworks */,
+				9C17FEF31BA90ACB00E32E37 /* Resources */,
+				9C17FFC21BA9415A00E32E37 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJQQMusic;
+			productName = WJQQMusic;
+			productReference = 9C17FEF51BA90ACB00E32E37 /* WJQQMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C17FF091BA90ACB00E32E37 /* WJQQMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C17FF171BA90ACB00E32E37 /* Build configuration list for PBXNativeTarget "WJQQMusicTests" */;
+			buildPhases = (
+				9C17FF061BA90ACB00E32E37 /* Sources */,
+				9C17FF071BA90ACB00E32E37 /* Frameworks */,
+				9C17FF081BA90ACB00E32E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C17FF0C1BA90ACB00E32E37 /* PBXTargetDependency */,
+			);
+			name = WJQQMusicTests;
+			productName = WJQQMusicTests;
+			productReference = 9C17FF0A1BA90ACB00E32E37 /* WJQQMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C17FEED1BA90ACB00E32E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = WJ;
+				TargetAttributes = {
+					9C17FEF41BA90ACB00E32E37 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9C17FF091BA90ACB00E32E37 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9C17FEF41BA90ACB00E32E37;
+					};
+				};
+			};
+			buildConfigurationList = 9C17FEF01BA90ACB00E32E37 /* Build configuration list for PBXProject "WJQQMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C17FEEC1BA90ACB00E32E37;
+			productRefGroup = 9C17FEF61BA90ACB00E32E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C17FEF41BA90ACB00E32E37 /* WJQQMusic */,
+				9C17FF091BA90ACB00E32E37 /* WJQQMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C17FEF31BA90ACB00E32E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C17FF611BA90B2B00E32E37 /* mymuisc_more@2x.png in Resources */,
+				9C17FF581BA90B2B00E32E37 /* actionIconLike@2x.png in Resources */,
+				9C17FF841BA90B2B00E32E37 /* player_btn_repeat_normal@2x.png in Resources */,
+				9C17FF631BA90B2B00E32E37 /* nowplaying_playlist@2x.png in Resources */,
+				9C17FF571BA90B2B00E32E37 /* actionbutton@2x.png in Resources */,
+				9C17FFF51BA9675300E32E37 /* PlayListView.xib in Resources */,
+				9C17FF721BA90B2B00E32E37 /* player_btn_next_highlight@2x.png in Resources */,
+				9C17FF811BA90B2B00E32E37 /* player_btn_random_normal@2x.png in Resources */,
+				9C17FF8D1BA90B2B00E32E37 /* player_btn_trash_normal@2x.png in Resources */,
+				9C17FF7E1BA90B2B00E32E37 /* player_btn_radiolist_normal@2x.png in Resources */,
+				9C17FF7F1BA90B2B00E32E37 /* player_btn_random_disable@2x.png in Resources */,
+				9C17FF001BA90ACB00E32E37 /* Main.storyboard in Resources */,
+				9C17FF8F1BA90B2B00E32E37 /* player_slider_playback_right@2x.png in Resources */,
+				9C17FF6A1BA90B2B00E32E37 /* player_btn_favorite_disable@2x.png in Resources */,
+				9C17FF641BA90B2B00E32E37 /* nowplaying_random@2x.png in Resources */,
+				9C17FF801BA90B2B00E32E37 /* player_btn_random_highlight@2x.png in Resources */,
+				9C17FF831BA90B2B00E32E37 /* player_btn_repeat_highlight@2x.png in Resources */,
+				9C17FF5C1BA90B2B00E32E37 /* channel_song_list_play_btn_h@2x.png in Resources */,
+				9C17FF5E1BA90B2B00E32E37 /* channel_songFolderList_playAll_h@2x.png in Resources */,
+				9C17FF741BA90B2B00E32E37 /* player_btn_pause_highlight@2x.png in Resources */,
+				9C17FF791BA90B2B00E32E37 /* player_btn_playlist_normal@2x.png in Resources */,
+				9C17FF751BA90B2B00E32E37 /* player_btn_pause_normal@2x.png in Resources */,
+				9C17FF691BA90B2B00E32E37 /* player_btn_download_normal@2x.png in Resources */,
+				9C17FF591BA90B2B00E32E37 /* actionIconLikeSelected@2x.png in Resources */,
+				9C17FF8A1BA90B2B00E32E37 /* player_btn_share_normal@2x.png in Resources */,
+				9C17FF5A1BA90B2B00E32E37 /* bannerTips_topokSQ@2x.png in Resources */,
+				9C17FF051BA90ACB00E32E37 /* LaunchScreen.xib in Resources */,
+				9C17FF6C1BA90B2B00E32E37 /* player_btn_favorite_normal@2x.png in Resources */,
+				9C17FF731BA90B2B00E32E37 /* player_btn_next_normal@2x.png in Resources */,
+				9C17FF6B1BA90B2B00E32E37 /* player_btn_favorite_highlight@2x.png in Resources */,
+				9C17FF651BA90B2B00E32E37 /* nowplaying_random_h@2x.png in Resources */,
+				9C17FF701BA90B2B00E32E37 /* player_btn_more_highlight@2x.png in Resources */,
+				9C17FF8E1BA90B2B00E32E37 /* player_slider_playback_left@2x.png in Resources */,
+				9C17FF901BA90B2B00E32E37 /* player_slider_playback_thumb@2x.png in Resources */,
+				9C17FF5B1BA90B2B00E32E37 /* channel_song_list_play_btn@2x.png in Resources */,
+				9C17FF8B1BA90B2B00E32E37 /* player_btn_sq_disable@2x.png in Resources */,
+				9C17FF871BA90B2B00E32E37 /* player_btn_repeatone_normal@2x.png in Resources */,
+				9C17FF851BA90B2B00E32E37 /* player_btn_repeatone_disable@2x.png in Resources */,
+				9C17FF021BA90ACB00E32E37 /* Images.xcassets in Resources */,
+				9C17FF891BA90B2B00E32E37 /* player_btn_share_highlight@2x.png in Resources */,
+				9C17FF7B1BA90B2B00E32E37 /* player_btn_pre_normal@2x.png in Resources */,
+				9C17FF711BA90B2B00E32E37 /* player_btn_more_normal@2x.png in Resources */,
+				9C17FF7A1BA90B2B00E32E37 /* player_btn_pre_highlight@2x.png in Resources */,
+				9C17FF5F1BA90B2B00E32E37 /* icon_operate_play@2x.png in Resources */,
+				9C17FF821BA90B2B00E32E37 /* player_btn_repeat_disable@2x.png in Resources */,
+				9C17FF881BA90B2B00E32E37 /* player_btn_share_disable@2x.png in Resources */,
+				9C17FF6F1BA90B2B00E32E37 /* player_btn_hq_disable@2x.png in Resources */,
+				9C17FF761BA90B2B00E32E37 /* player_btn_play_highlight@2x.png in Resources */,
+				9C17FF681BA90B2B00E32E37 /* player_btn_download_highlight@2x.png in Resources */,
+				9C17FF861BA90B2B00E32E37 /* player_btn_repeatone_highlight@2x.png in Resources */,
+				9C17FF6D1BA90B2B00E32E37 /* player_btn_favorited_highlight@2x.png in Resources */,
+				9C17FF7D1BA90B2B00E32E37 /* player_btn_radiolist_highlight@2x.png in Resources */,
+				9C17FF5D1BA90B2B00E32E37 /* channel_songFolderList_playAll@2x.png in Resources */,
+				9C17FF771BA90B2B00E32E37 /* player_btn_play_normal@2x.png in Resources */,
+				9C17FF6E1BA90B2B00E32E37 /* player_btn_favorited_normal@2x.png in Resources */,
+				9C17FF621BA90B2B00E32E37 /* nowplay_recommend_selected_cell@2x.png in Resources */,
+				9C17FF671BA90B2B00E32E37 /* player_btn_download_disable@2x.png in Resources */,
+				9C17FF7C1BA90B2B00E32E37 /* player_btn_radio_normal@2x.png in Resources */,
+				9C17FF661BA90B2B00E32E37 /* nowplaying_section_bg@2x.png in Resources */,
+				9C17FF8C1BA90B2B00E32E37 /* player_btn_trash_highlight@2x.png in Resources */,
+				9C17FF781BA90B2B00E32E37 /* player_btn_playlist_highlight@2x.png in Resources */,
+				9C17FF601BA90B2B00E32E37 /* icon_operate_play_pressed@2x.png in Resources */,
+				9C17FF561BA90B2B00E32E37 /* 239780136.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C17FF081BA90ACB00E32E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C17FEF11BA90ACB00E32E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C17FF941BA91A6B00E32E37 /* PlayListView.swift in Sources */,
+				9C17FEFD1BA90ACB00E32E37 /* ViewController.swift in Sources */,
+				9C17FFF31BA9543E00E32E37 /* Public.swift in Sources */,
+				9C17FEFB1BA90ACB00E32E37 /* AppDelegate.swift in Sources */,
+				9C17FFEF1BA944D200E32E37 /* HttpProtocol.swift in Sources */,
+				9C17FFF11BA9480600E32E37 /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C17FF061BA90ACB00E32E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C17FF111BA90ACB00E32E37 /* WJQQMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C17FF0C1BA90ACB00E32E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C17FEF41BA90ACB00E32E37 /* WJQQMusic */;
+			targetProxy = 9C17FF0B1BA90ACB00E32E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C17FEFE1BA90ACB00E32E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C17FEFF1BA90ACB00E32E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C17FF031BA90ACB00E32E37 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C17FF041BA90ACB00E32E37 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C17FF121BA90ACB00E32E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C17FF131BA90ACB00E32E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C17FF151BA90ACB00E32E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJQQMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C17FF161BA90ACB00E32E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJQQMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C17FF181BA90ACB00E32E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJQQMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJQQMusic.app/WJQQMusic";
+			};
+			name = Debug;
+		};
+		9C17FF191BA90ACB00E32E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJQQMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJQQMusic.app/WJQQMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C17FEF01BA90ACB00E32E37 /* Build configuration list for PBXProject "WJQQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C17FF121BA90ACB00E32E37 /* Debug */,
+				9C17FF131BA90ACB00E32E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C17FF141BA90ACB00E32E37 /* Build configuration list for PBXNativeTarget "WJQQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C17FF151BA90ACB00E32E37 /* Debug */,
+				9C17FF161BA90ACB00E32E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C17FF171BA90ACB00E32E37 /* Build configuration list for PBXNativeTarget "WJQQMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C17FF181BA90ACB00E32E37 /* Debug */,
+				9C17FF191BA90ACB00E32E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C17FEED1BA90ACB00E32E37 /* Project object */;
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="WJQQMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="239780136.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ngC-KY-fAS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2pH-7R-Msa">
+                                <rect key="frame" x="54" y="127" width="210" height="210"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="单行的轨道" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zow-Wn-soA">
+                                <rect key="frame" x="0.0" y="29" width="320" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="239780136.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P0m-Aj-sLL">
+                                <rect key="frame" x="60" y="132" width="200" height="200"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0k2-Fk-H0X">
+                                <rect key="frame" x="46" y="403" width="229" height="31"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnB-jG-hgE">
+                                <rect key="frame" x="253" y="17" width="60" height="45"/>
+                                <state key="normal" image="player_btn_more_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="—  邓紫棋  —" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSC-nf-a0K">
+                                <rect key="frame" x="25" y="65" width="270" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="player_btn_sq_disable.png" translatesAutoresizingMaskIntoConstraints="NO" id="JEw-jS-ywC">
+                                <rect key="frame" x="140" y="97" width="40" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHk-6z-GcF">
+                                <rect key="frame" x="56" y="434" width="64" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" image="player_btn_pre_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="preSongClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Rsw-mk-Jzk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mce-xV-EDL">
+                                <rect key="frame" x="128" y="434" width="64" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" image="player_btn_play_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Os0-LV-Omk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qph-CD-5uI">
+                                <rect key="frame" x="200" y="434" width="64" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" image="player_btn_next_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextSongClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5F2-Gb-xW4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04:38" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crt-Le-kBH">
+                                <rect key="frame" x="276" y="400" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="YiA-Dz-ka6">
+                                <rect key="frame" x="141" y="365" width="39" height="37"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="歌词" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxn-Kh-KSw">
+                                <rect key="frame" x="5" y="336" width="310" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cS-jz-rGz">
+                                <rect key="frame" x="19" y="518" width="50" height="50"/>
+                                <state key="normal" backgroundImage="player_btn_favorite_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2c-fI-Qru">
+                                <rect key="frame" x="77" y="518" width="50" height="50"/>
+                                <state key="normal" backgroundImage="player_btn_random_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3J-Dn-Y9e">
+                                <rect key="frame" x="135" y="518" width="50" height="50"/>
+                                <state key="normal" backgroundImage="player_btn_download_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knA-85-SHS">
+                                <rect key="frame" x="193" y="518" width="50" height="50"/>
+                                <state key="normal" backgroundImage="player_btn_share_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsK-5W-1TA">
+                                <rect key="frame" x="251" y="518" width="50" height="50"/>
+                                <state key="normal" backgroundImage="player_btn_playlist_normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showPlayList:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vVw-Kl-IT4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Szh-LO-tc4">
+                                <rect key="frame" x="3" y="400" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ngC-KY-fAS" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Rmr-Zm-hCi"/>
+                            <constraint firstItem="ngC-KY-fAS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="dtr-HH-9lk"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ngC-KY-fAS" secondAttribute="bottom" id="ftI-MP-IWv"/>
+                            <constraint firstAttribute="trailing" secondItem="ngC-KY-fAS" secondAttribute="trailing" id="nB4-vv-hIT"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="allTimeLabel" destination="crt-Le-kBH" id="FUM-j3-trA"/>
+                        <outlet property="artistLabel" destination="kSC-nf-a0K" id="krl-O3-W3A"/>
+                        <outlet property="backgroundImageView" destination="ngC-KY-fAS" id="EIx-xN-E9I"/>
+                        <outlet property="photo" destination="P0m-Aj-sLL" id="Iag-K4-exL"/>
+                        <outlet property="photoBorderView" destination="2pH-7R-Msa" id="pU1-Qo-amA"/>
+                        <outlet property="playButton" destination="Mce-xV-EDL" id="iQt-Gm-gry"/>
+                        <outlet property="playTimeLabel" destination="Szh-LO-tc4" id="JSU-sC-r2X"/>
+                        <outlet property="progressSlider" destination="0k2-Fk-H0X" id="6TQ-wc-6mp"/>
+                        <outlet property="titleLabel" destination="zow-Wn-soA" id="nXc-T7-GGP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="239780136.jpg" width="300" height="300"/>
+        <image name="player_btn_download_normal.png" width="50" height="50"/>
+        <image name="player_btn_favorite_normal.png" width="50" height="50"/>
+        <image name="player_btn_more_normal.png" width="60" height="44"/>
+        <image name="player_btn_next_normal.png" width="64" height="64"/>
+        <image name="player_btn_play_normal.png" width="64" height="64"/>
+        <image name="player_btn_playlist_normal.png" width="50" height="50"/>
+        <image name="player_btn_pre_normal.png" width="64" height="64"/>
+        <image name="player_btn_random_normal.png" width="50" height="50"/>
+        <image name="player_btn_share_normal.png" width="50" height="50"/>
+        <image name="player_btn_sq_disable.png" width="40" height="18"/>
+    </resources>
+</document>
