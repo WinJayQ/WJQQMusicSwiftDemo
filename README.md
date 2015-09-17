@@ -1,0 +1,2 @@
+# WJQQMusicSwiftDemo
+swift版模仿QQ音乐：Layer动画，Xib的使用，网络请求数据，UISlider，MPMoviePlayerController，protocol，UIVisualEffectView
